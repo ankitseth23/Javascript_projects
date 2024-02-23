@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Piedra&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Trends</h1>
+            </div>
+            <ul>
+                <li>
+                     <a id="home" onclick="homes()">Home </a>
+                     <a id ="shop" onclick="shops()">Shops</a>
+                     <a id="blog" onclick="blogs()">Blog</a>
+                     <a id="about" onclick="abouts()">About</a>
+                     <a id="contact" onclick="contacts()">Contact</a>
+                     <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                </li>
+            </ul>
+        </nav>
+      <!-- main page -->
+
+
+    
+     <div class="main">
+        <div class="mainText">
+            <h2>Trends</h2>
+            <h1 class="top">Super Value Deals </h1>
+            <h1>On All Products </h1>
+             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi.</p>
+             <button>Explore</button>
+           </div>
+           <img src="Image/m3.png">
+     </div>
+      
+        <!-- Men cards -->
+        <div class="trends">
+          <div class="head">
+            <h1>Trends <span>Mens's Wear</span></h1>
+          </div> 
+           <div class="card">
+            <div class="crd">
+              <img src="Image/tshirt.webp" onclick="show(this)">
+              <div class="crdText">
+                <h2>Cutton Trending Shirts's</h2>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i> <br>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+
+           
+            <div class="crd">
+              <img src="Image/tshirt2.webp" onclick="show(this)">
+              <div class="crdText">
+                <h2>Cutton Trending Shirts's</h2>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i> <br>
+                <button>Add to Cart</button>
+            </div>
+           </div>
+
+           
+            <div class="crd">
+              <img src="Image/tshirt 3.webp" onclick="show(this)" >
+              <div class="crdText">
+                <h2>Cutton Trending Shirts's</h2>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i> <br>
+                <button>Add to Cart</button>
+            </div>
+           </div>
+        </div>
+
+        </div>
+
+        <!--women Card-->
+       <div class="trends" id="trendsSec" >
+        <div class="head">
+            <h1>Trends <span>Women's Wear</span></h1>
+        </div>
+         <div class="card">
+            <div class="crd">
+            <img src="Image/wn4.webp" onclick="show(this)">
+            <div class="crdText">
+                <h2>Trending Girl Top's</h2>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i> <br>
+                <button>Add to Cart</button>
+            </div>
+            </div>
+           
+            <div class="crd">
+                <img src="Image/wn5.webp" onclick="show(this)" >
+                <div class="crdText">
+                    <h2>Trending Girl Top's</h2>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i> <br>
+                    <button>Add to Cart</button>
+                </div>
+                </div>
+               
+                <div class="crd">
+                    <img src="Image/wn6.webp" onclick="show(this)" >
+                    <div class="crdText">
+                        <h2>Trending Girl Top's</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br>
+                        <button>Add to Cart</button>
+                    </div>
+                    </div>
+         </div>
+       </div>
+
+       <!--About us-->
+
+        <div class="about">
+            <div class="aboutus">
+                <h1>#Know us </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ea, quia facere nulla qui rerum labore nobis assumenda dignissimos eveniet iure ipsa fugiat quisquam provident harum sit minus numquam ut?</p>
+            </div>
+
+            <div class="me">
+                <img src="Image/lap.png">
+                <div class="aboutText">
+                    <h1>Who We are ?</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero aperiam eligendi earum doloribus officia! Dolor cupiditate placeat a debitis mollitia, laborum veritatis vero.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero aperiam eligendi earum doloribus officia! Dolor cupiditate placeat a debitis mollitia, laborum veritatis vero.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero aperiam eligendi earum doloribus officia! Dolor cupiditate placeat a debitis mollitia, laborum veritatis vero.</p>
+                </div>
+            </div>
+        </div>
+
+     
+      <!--contact-->
+      <div class="contact"> 
+
+          <div class="contactus">
+          <h1>#Let's Connect </h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ea, quia facere nulla qui rerum labore nobis assumenda dignissimos eveniet iure ipsa fugiat quisquam provident harum sit minus numquam ut?</p>
+        </div>
+
+      <div class="contactMe">
+       <div class="contactText">
+        <h1>Visit Our Office or Contact  <br>
+            Us Today</h1>
+            <p>Address : Dablin Park, England, New york.</p>
+            <p>Contact : shopemail@gmail.com</p>
+            <p>Number : 999999000011</p>
+       </div>
+         
+          <img src="Image/map.PNG">
+
+           </div>
+
+         <div class="form">
+            <h1>Connect with Us. Fill the Form </h1>
+            <input type="text" placeholder="Enter email"> <br>
+            <input type="text" placeholder="Enter email"> <br>
+            <input type="text" placeholder="Enter email"> <br>
+            <input type="text" placeholder="Enter email"> <br>
+            <input type="text" placeholder="Enter email"> <br>
+            <button>Submit</button>
+
+         </div>
+
+        </div>
+
+      <!-- cart -->
+      
+      <div class="cart">
+        <img id="newImg" src="" alt="">
+        <div class="cartText">
+            <h1>Trends Offer : Trending Shop  <br>
+            Now</h1>
+            <h2>Special Price</h2>
+            <h2>$11</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            <div class="btn">
+           <button>Buy Now</button>
+           <button onclick="addcart()">Add to cart</button>
+         </div>
+         <button class="back"> Back</button>
+         </div>
+      </div>
+
+
+      <!-- blogs -->
+       
+      <div class="trendsB">
+        <div class="head">
+          <h1>Trends <span>Women's Wear</span></h1>
+        </div> 
+         <div class="card">
+          <div class="blog">
+            <img src="Image/tr1.webp" >
+            <div class="blogText">
+                <h2>Trending Girl Cloths</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, animi expedita?</p>
+                <a href="https://influencermarketinghub.com/best-fashion-blogs/" target="_blank">Read More</a>
+            </div>
+          </div>
+
+          <div class="blog">
+            <img src="Image/tr3.webp" >
+            <div class="blogText">
+                <h2>Trending Boys Cloths</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, animi expedita?</p>
+                <a href="https://www.apetogentleman.com/" target="_blank">Read More</a>
+            </div>
+          </div>
+        </div>
+     </div> 
+
+     <!--Letter-->
+
+     <div class="letter">
+        <div class="letterText">
+            <h1>Sign Up for NewsLetter</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="inp">
+            <input type ="text" placeholder="Enter Email">
+            <Button>Sing Up</Button>
+        </div>
+     </div>
+
+     <!--Footer-->
+      <div class="footer">
+        <div class="footerText">
+            <h2>Trends</h2>
+            <p>Service</p>
+            <p>Customer</p>
+            <p>Satisfaction</p>
+            
+        </div>
+
+        <div class="footerText">
+            <h2>About US</h2>
+            <p>Adrress : Lorem ipsum dolor sit amet, <br>
+                consectetur adipisicing <br> 
+                Perferendis, excepturi alias.</p>
+            <p>Service</p>
+            <p>Customer</p>
+            <p>Satisfation</p>
+        </div>
+        
+        <div class="footerText">
+            <h2>Contect</h2>
+            <p>9989003229</p>
+            <p>Customer</p>
+            <p>Comming up</p>
+            <p>New Arrival</p>
+        </div>
+        
+        <div class="footerText">
+            <h2>Trending</h2>
+            <p>Service</p>
+            <p>Customer</p>
+            <p>Shops</p>
+            <p></p>
+        </div>
+        
+
+      </div>
+
+     
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
