@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(1, 1, 14);
+    color: white;
+ }
+
+ nav{
+    position: fixed;
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    background-color: rgb(1, 1, 14);
+    padding: 18px;
+    box-shadow: 0px 2px 6px 2px rgb(31,30, 30);
+    color: white;
+    cursor: pointer;
+    align-items: center;
+}
+
+nav ul li a {
+    margin-inline: 22px;
+    text-decoration: none;
+    color: white;
+}
+
+ul li{
+    list-style: none;
+}
+
+nav ul{
+    margin-right: 75px;
+    margin-top: 5px;
+    
+}
+
+.logo{
+    font-size: 25px;
+    margin-left: 33px;
+    color: rgb(42, 250, 42);
+}
+
+ul li button{
+    width: auto;
+    height: 25px;
+    font-size: 20px;
+    background-color: rgb(4, 180, 4);
+    border: none;
+    color: white;
+}
+
+
+ul li button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: rgb(20, 251, 20);
+    cursor: pointer;
+}
+ul li a:hover{
+    color: rgb(20, 251, 20);
+    border-bottom: 2px solid rgb(20, 251, 20);
+}
+
+/*main page */
+
+.home{
+    display: flex;
+    justify-content: center;
+}
+
+.home img{
+    width: 60%;
+    margin-top: 130px;
+    margin-left: -170px;
+}
+
+.home .homeText{
+    margin-top: 200px;
+    margin-left: 44px ;
+
+}
+
+.homeText h1{
+    font-size:80px;
+    color: rgb(51, 242, 51);
+}
+.homeText h3{
+    margin-top: 22px;
+    font-size: 27px;
+}
+
+.homeText p{
+    margin-top: 20px;
+    color: silver;
+}
+.homeText button{
+    margin-top: 20px;
+    font-size: 20px;
+    background: rgb(12, 123, 12);
+    color: white;
+    width: 120px;
+    height: 40px;
+}
+
+.homeText button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: rgb(12, 105, 12);
+}
+
+.head{
+    text-align: center;
+    padding: 92px;
+    
+}
+
+.head span{
+    color: rgb(30, 202, 30);
+}
+
+.ourprogram{
+    display: flex;
+    justify-content: center;
+}
+
+.ourprogram .crd{
+   margin-inline: 25px;
+   text-align: center;
+}
+
+.ourprogram .crd img:hover{
+    width: 105%;
+}
+
+
+/*Our Plans*/
+
+.ourPlans{
+    display: flex;
+    justify-content: center;
+}
+
+.ourPlans .card{
+    width: 300px;
+    background-color: rgb(49, 40, 40);
+    text-align: center;
+    margin-inline: 20px;
+    padding: 7px;
+    height: 400px;
+}
+.card i{
+    font-size: 20px;
+    margin-top: 22px;
+    color: orange;
+}
+.card h3{
+    margin-top: 20px;
+    color: rgb(57, 200, 57);
+}
+.card h1{
+    margin-top: 20px;
+    color: rgb(22, 164, 22);
+}
+.card p{
+    margin-top: 15px;
+    color: rgb(160, 158, 158);
+}
+.card button{
+    margin-top: 20px;
+    font-size: 20px;
+    background:orange;
+    color: white;
+    width: 120px;
+    height: 35px;
+    border: none;
+}
+.card button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: rgb(35, 199, 35);
+    cursor: pointer;
+}
+.card:hover{
+    transform: 0.7s ease;
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* blog*/
+
+.ourBlog{
+    display: flex;
+    justify-content: center;
+}
+.ourBlog .blogCard{
+    width: 330px;
+    margin-inline: 20px;
+    height: 390px;
+    background-color: rgb(27, 27, 27);
+    
+}
+.blogCard img{
+    width: 100%;
+}
+.blogCard p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.blogText a{
+    text-decoration: none;
+    width: 100%;
+    padding: 7px;
+    background-color: rgb(10, 72, 10);
+    color: white;
+    margin-top: 23px;
+    cursor: pointer;
+   
+}
+
+.blogText{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+/*Contact*/
+
+.contactPage{
+    display: flex;
+    justify-content: center;
+}
+.contactText{
+    margin-left: 32px;
+    color: rgb(33, 236, 33);
+    margin-top: 122px;
+    font-size: 30px;
+
+}
+
+.contactPage img{
+    width: 60%;
+    margin-left: -35px;
+}
+
+.contactUs{
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.contactUs input{
+    width: 320px;
+    padding: 7px;
+    height: 30px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin-top: 22px;
+}
+
+.contactUs button{
+    width: 338px;
+    background-color: rgb(11, 175, 11);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 2px;
+}
+
+.contactUs button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: rgb(27, 234, 27);
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 22px;
+    box-shadow: 0px 2px 6px 4px rgb(36, 34, 34);
+}
+
+.footer .footerText{
+    margin-inline:100px;
+    margin-top: 30px;
+}
+
+.footerText p{
+    margin-top: 10px;
+    color: silver;
+}
+
